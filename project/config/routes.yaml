@@ -1,0 +1,3 @@
+leads:
+    path: /deals
+    controller: App\Controller\DealsController::index

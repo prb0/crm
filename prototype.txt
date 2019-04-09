@@ -1,0 +1,79 @@
+/////////////////////////////
+
+============
+=   deal   =
+============
+
+title str 255
+
+stage manytoone
+
+manager manytoone
+
+roistat str 127
+
+utmSource str 255
+
+utmTerm str 255
+
+utmContent text 1023
+
+utmCampaign str 255
+
+utmMedium str 255
+
+source str 255
+
+requestType str 127
+
+referrer str 127
+
+refpage str 255
+
+/////////////////////////////
+
+=============
+=  manager  =
+=============
+
+name str 63
+
+phone str 63
+
+secondaryPhone str 63
+
+email str 63
+
+photo str 255
+
+registered int
+
+birthdate int
+
+/////////////////////////////
+
+=============
+=  contact  =
+=============
+
+name str 63
+
+phone str 63
+
+secondaryPhone str 63
+
+email str 63
+
+city str 127
+
+address onetomany
+
+/////////////////////////////
+
+===========
+=  stage  =
+===========
+
+name str 63
+
+/////////////////////////////
